@@ -1,1 +1,13 @@
-[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"com.numnam.numnam","sha256_cert_fingerprints":["10:79:17:8B:5B:66:BD:C5:9E:D2:A6:F9:50:74:53:7A:BF:F9:D2:45:5E:B4:18:69:33:63:7B:82:82:BE:62:AB"]}}]
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.numnam.numnam",
+    "sha256_cert_fingerprints": [
+      "10:79:17:8B:5B:66:BD:C5:9E:D2:A6:F9:50:74:53:7A:BF:F9:D2:45:5E:B4:18:69:33:63:7B:82:82:BE:62:AB",
+      "E3:46:B6:00:C5:AE:48:59:1F:0B:8C:0C:45:E5:F3:2D:AF:38:5C:7E:4F:1B:01:BC:BF:D3:18:06:A6:8E:47:8A"
+    ]
+  }
+}
