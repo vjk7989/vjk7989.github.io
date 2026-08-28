@@ -17,13 +17,14 @@
           <a href="/delete-account/">Delete account</a>
         </nav>
         <h1>Privacy Policy</h1>
-        <p class="legal-meta">Effective 24 August 2026. Version privacy-v1. Contact <a href="mailto:numnamkids@gmail.com">numnamkids@gmail.com</a>.</p>
+        <p class="legal-meta">Effective 28 August 2026. Version privacy-v2. Contact <a href="mailto:numnamkids@gmail.com">numnamkids@gmail.com</a>.</p>
         <p>This policy explains how Numnam, publisher of Num Nam - Child Health & Growth Guide, handles personal information.</p>
         <h2>Information we handle</h2>
         <ul>
           <li>Parent account information supplied by Google and Supabase, such as account ID, name, email, authentication provider, and security records.</li>
           <li>Child profiles entered by an adult caregiver, including name or nickname, date of birth, measurements, profile emoji, feeding and care logs, and optional medical-profile details.</li>
-          <li>Nanha Yatra information uploaded only after separate health-cloud consent, including visits, measurements, clinical notes, and private health documents. The local vault PIN and encryption key are not uploaded.</li>
+          <li>Nanha Yatra numeric health records synchronize automatically for signed-in parents unless they disable health-record sync in Privacy settings. This can include visits, measurements, clinical notes, and private health documents. The local vault PIN and encryption key are not uploaded.</li>
+          <li>Optional photos attached to parent-entered manual height measurements remain encrypted in the device vault. The photo, filename, local path, metadata, and attachment status are not sent to Supabase or the administrator dashboard.</li>
           <li>Recipe, blog, weaning, shop, cart, address, order, inbox, and community activity needed to provide those features.</li>
           <li>Device installation, app version, notification permission, and Firebase Cloud Messaging token needed for selected reminders and administrator announcements.</li>
           <li>Minimized operational events, errors, moderation actions, and audit records. Analytics and audits are designed not to copy medical text, chat bodies, addresses, credentials, or notification tokens.</li>
@@ -31,8 +32,8 @@
         <h2>Why we use it</h2>
         <p>We use information to authenticate accounts; provide child-scoped logs and records; synchronize data chosen for cloud use; deliver requested reminders; operate recipes, community, shop, orders, support, safety, moderation, security, and account deletion; and meet legal obligations. We do not sell personal information and the app contains no advertising SDK in this release.</p>
         <h2>Health information and consent</h2>
-        <p>The local Nanha Yatra vault remains available without cloud consent. Health-cloud sync is off by default. If you enable it, the consent screen identifies the data categories and purpose. Authorized administrators or clinicians may access cloud health information only with active consent, an assigned permission, a recorded access reason, and an immutable audit event.</p>
-        <p>You may withdraw health-cloud consent at any time. Withdrawal stops new uploads. You can also request deletion of previously synchronized health data; deleting cloud data does not automatically delete the separate encrypted copy kept on your device.</p>
+        <p>The local Nanha Yatra vault remains protected by the parent's device PIN. For signed-in accounts, supported numeric health records synchronize automatically by default so they remain available across the service. Optional manual-height photos stay only in the encrypted device vault. Authorized administrators or clinicians may access cloud health information only while synchronization consent is active, with an assigned permission, a recorded access reason, and an immutable audit event.</p>
+        <p>You may disable health-record synchronization at any time in Baby Profile - Legal &amp; account privacy. Disabling it stops new uploads and preserves the encrypted local vault. You may separately request deletion of previously synchronized health data; deleting cloud data does not automatically delete the separate encrypted copy kept on your device.</p>
         <h2>Service providers and transfers</h2>
         <p>Num Nam uses Google for sign-in, Supabase for authentication, database, storage, and Edge services, and Firebase Cloud Messaging for Android notifications. The administrator dashboard may be hosted by Vercel, and public support, legal pages, and test downloads may be hosted by GitHub. Information may be processed outside your country, subject to applicable safeguards and provider terms.</p>
         <h2>Sharing</h2>
